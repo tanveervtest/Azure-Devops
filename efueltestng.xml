@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EfuelSystems Automation Testing - Functional"
+	thread-count="1">
+	<test name="EfuelTests">
+		<parameter name="nodeIp" value="localhost" />
+		<parameter name="nodePort" value="5555" />
+		<parameter name="driverType" value="chrome" />
+		<parameter name="environment"
+			value="https://uat-portal.efuelsystems.com" />
+		<classes>
+			<class name="com.efuelsystems.tests.TC_004"/>
+			<class name="com.efuelsystems.tests.TC_005" />
+			<class name="com.efuelsystems.tests.TC_006" />
+		</classes>
+	</test>
+
+	<!-- <test name="PulseDev"> <parameter name="nodeIp" value="localhost" /> 
+		<parameter name="nodePort" value="5555" /> <parameter name="driverType" value="chrome" 
+		/> <parameter name="environment" value="https://pulse-dev.tatsh.cloud/Login2.aspx" 
+		/> <classes> <class name="com.nextcare.tests.LoginTest" /> <class name="com.nextcare.tests.EligibilityChecking" 
+		/> <class name="com.nextcare.tests.CreateClaimTest" /> <class name="com.nextcare.tests.Search" 
+		/> </classes> </test> -->
+</suite>

@@ -1,0 +1,39 @@
+{
+	"TC_CreateSite_001": {
+		"userNameInput": "DemoSuperUser",
+		"passwordInput": "DemoPass!CA1",
+		"companyCode": "Testing",
+		"siteNumber": "1111",
+		"siteName": "Site1111",
+		"countryValue":"India",
+		"timeZoneValue":"(UTC-10:00) Hawaii(Pacific/Midway)",
+		"brandValue":"Test",
+		"groupValue":"group1",
+		"regionValue":"region1"
+		
+	},
+	"TC_CreateUser_002": {
+		"loginUserName": "DemoAdmin2",
+		"loginPassword": "DemoPass!A1",
+		"companyCode": "Testing",
+		"userNameValue": "User1",
+		"emailAddressValue": "User1@gmail.com",
+		"firstNameValue": "arnold",
+		"lastNameValue": "wick",
+		"country": "India",
+		"timeZone": "(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi(Asia/Kolkata)"
+	},
+	"TC_003_CreateContacts": {
+		"loginUserName": "DemoAdmin2",
+		"loginPassword": "DemoPass!A1",
+		"companyCode": "DEMORC",
+		"userNameValue": "User1",
+		"emailAddressValue": "Jason@gmail.com",
+		"firstNameValue": "Jacob1",
+		"lastNameValue": "statham",
+		"countryValue":"India",
+		"timeZoneValue":"(UTC-10:00) Hawaii(Pacific/Midway)",
+		"contactTypeValue":"Contact",
+		"mobileValue":"9734452319"
+	}
+}

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-01T15:24:32 IST" name="EfuelSystems Automation Testing - Functional" finished-at="2023-05-01T15:24:52 IST" duration-ms="20588">
+    <groups>
+    </groups>
+    <test started-at="2023-05-01T15:24:32 IST" name="EfuelTests" finished-at="2023-05-01T15:24:52 IST" duration-ms="20588">
+      <class name="com.efuelsystems.tests.TC_006">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.efuelsystems.tests.TC_006@2c78324b]" started-at="2023-05-01T15:24:51 IST" name="beforeClass" finished-at="2023-05-01T15:24:52 IST" duration-ms="902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://uat-portal.efuelsystems.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.efuelsystems.tests.TC_006@2c78324b]" started-at="2023-05-01T15:24:52 IST" name="beforeMethod" finished-at="2023-05-01T15:24:52 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_006.TC_006()[pri:1, instance:com.efuelsystems.tests.TC_006@2c78324b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_006()[pri:1, instance:com.efuelsystems.tests.TC_006@2c78324b]" started-at="2023-05-01T15:24:52 IST" name="TC_006" description="TC_006" finished-at="2023-05-01T15:24:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.efuelsystems.tests.TC_006@2c78324b]" started-at="2023-05-01T15:24:52 IST" name="afterMethod" finished-at="2023-05-01T15:24:52 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_006 status=SUCCESS method=TC_006.TC_006()[pri:1, instance:com.efuelsystems.tests.TC_006@2c78324b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.efuelsystems.tests.TC_006@2c78324b]" started-at="2023-05-01T15:24:52 IST" name="afterClass" finished-at="2023-05-01T15:24:52 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.efuelsystems.tests.TC_006 -->
+      <class name="com.efuelsystems.tests.TC_005">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.efuelsystems.tests.TC_005@54e041a4]" started-at="2023-05-01T15:24:50 IST" name="beforeClass" finished-at="2023-05-01T15:24:51 IST" duration-ms="935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://uat-portal.efuelsystems.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.efuelsystems.tests.TC_005@54e041a4]" started-at="2023-05-01T15:24:51 IST" name="beforeMethod" finished-at="2023-05-01T15:24:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_005.TC_005()[pri:1, instance:com.efuelsystems.tests.TC_005@54e041a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_005()[pri:1, instance:com.efuelsystems.tests.TC_005@54e041a4]" started-at="2023-05-01T15:24:51 IST" name="TC_005" description="TC_005" finished-at="2023-05-01T15:24:51 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:976)
+at org.testng.Assert.assertEquals(Assert.java:1010)
+at com.efuelsystems.tests.TC_005.TC_005(TC_005.java:105)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.efuelsystems.tests.TC_005@54e041a4]" started-at="2023-05-01T15:24:51 IST" name="afterMethod" finished-at="2023-05-01T15:24:51 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_005 status=FAILURE method=TC_005.TC_005()[pri:1, instance:com.efuelsystems.tests.TC_005@54e041a4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.efuelsystems.tests.TC_005@54e041a4]" started-at="2023-05-01T15:24:51 IST" name="afterClass" finished-at="2023-05-01T15:24:51 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.efuelsystems.tests.TC_005 -->
+      <class name="com.efuelsystems.tests.TC_004">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.efuelsystems.tests.TC_004@68878f6d]" started-at="2023-05-01T15:24:31 IST" name="beforeSuite" finished-at="2023-05-01T15:24:32 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.efuelsystems.tests.TC_004@68878f6d]" started-at="2023-05-01T15:24:32 IST" name="beforeClass" finished-at="2023-05-01T15:24:50 IST" duration-ms="17886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[localhost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[https://uat-portal.efuelsystems.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.efuelsystems.tests.TC_004@68878f6d]" started-at="2023-05-01T15:24:50 IST" name="beforeMethod" finished-at="2023-05-01T15:24:50 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_004.TC_004()[pri:1, instance:com.efuelsystems.tests.TC_004@68878f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_004()[pri:1, instance:com.efuelsystems.tests.TC_004@68878f6d]" started-at="2023-05-01T15:24:50 IST" name="TC_004" description="TC_004" finished-at="2023-05-01T15:24:50 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.efuelsystems.tests.TC_004@68878f6d]" started-at="2023-05-01T15:24:50 IST" name="afterMethod" finished-at="2023-05-01T15:24:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_004 status=SUCCESS method=TC_004.TC_004()[pri:1, instance:com.efuelsystems.tests.TC_004@68878f6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.efuelsystems.tests.TC_004@68878f6d]" started-at="2023-05-01T15:24:50 IST" name="afterClass" finished-at="2023-05-01T15:24:50 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.efuelsystems.tests.TC_004@68878f6d]" started-at="2023-05-01T15:24:52 IST" name="afterSuite" finished-at="2023-05-01T15:24:53 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.efuelsystems.tests.TC_004 -->
+    </test> <!-- EfuelTests -->
+  </suite> <!-- EfuelSystems Automation Testing - Functional -->
+</testng-results>
